@@ -1,0 +1,28 @@
+{
+  "name": "redux-wizard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/redux-wizard.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "dev": "babel src --out-dir lib --watch",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cizar/redux-wizard.git"
+  },
+  "keywords": [],
+  "author": "Cesar Kastli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cizar/redux-wizard/issues"
+  },
+  "homepage": "https://github.com/cizar/redux-wizard#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
